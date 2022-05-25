@@ -1,6 +1,5 @@
 
 var nombre = document.getElementById("nombre");
-var nombre_ = document.getElementById("nombre").value;
 var correo = document.getElementById("email");
 var contrasenia = document.getElementById("password");
 var contrasenia2 = document.getElementById("repeatPassword");
