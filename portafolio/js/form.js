@@ -1,5 +1,7 @@
-var nombre = document.getElementById("nombre").value;
-var correo = document.getElementById("email").value;
+
+var nombre = document.getElementById("nombre");
+var nombre_ = document.getElementById("nombre").value;
+var correo = document.getElementById("email");
 var contrasenia = document.getElementById("password");
 var contrasenia2 = document.getElementById("repeatPassword");
 var sexo = document.getElementById("sexo");
@@ -7,6 +9,7 @@ var aficiones = document.getElementById("aficiones");
 var terminos = document.getElementById("terminos");
 var form = document.getElementById("form");
 var listInputs = document.querySelectorAll(".form-input");
+
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   let condicion = validacionForm();
@@ -54,5 +57,6 @@ function mostrarMensajeError(claseInput, mensaje) {
 function enviarFormulario() {
   form.reset();
   form.lastElementChild.innerHTML = "Listo !!";
+
 }
 
