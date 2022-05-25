@@ -1,0 +1,35 @@
+.info {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.info .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-viaje {
+    margin: 20px;
+}
+
+.info-viaje img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+}
+
+@media (min-width:480px) {
+    .info-viaje {
+        width: 40%;
+    }
+}
+
+@media (min-width:1024px) {
+    .info-viaje {
+        width: auto;
+    }
+}
